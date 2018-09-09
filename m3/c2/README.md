@@ -1,0 +1,2 @@
+- CameraProject: Ejemplo de uso del intent estándar para tomar fotos.
+- ListandContent: Content Provider y loaders.
