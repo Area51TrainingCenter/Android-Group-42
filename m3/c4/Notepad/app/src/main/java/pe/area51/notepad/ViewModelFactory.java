@@ -32,7 +32,7 @@ public class ViewModelFactory implements ViewModelProvider.Factory {
         if (modelClass.isAssignableFrom(ViewModelContent.class)) {
             return (T) new ViewModelContent(notesRepository, workerThreadExecutor, uiThreadExecutor);
         }
-        return null;
+        throw new RuntimeException("Unknown ViewModel class!");
     }
 
 }

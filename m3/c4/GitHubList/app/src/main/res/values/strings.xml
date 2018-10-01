@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GitHub List</string>
+
+    <string name="hint_user_name">GitHub user name.</string>
+    <string name="action_search_repositories">Search Repositories</string>
+
+    <string name="error_message_no_repositories">This user doesn\'t have repositories.</string>
+    <string name="error_message_io">Can\'t get repositories. Check your network connection.</string>
+    <string name="error_message_unknown_user">Unknown user!</string>
+    <string name="error_message_unknown_error">Can\'t get repositories.</string>
+</resources>
